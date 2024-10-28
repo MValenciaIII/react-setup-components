@@ -6,7 +6,8 @@ function Body() {
 
     return(
         <div className="row">
-            <div className="col-12">
+            <div className="col-4"></div>
+            <div className="col-4 d-flex justify-content-center">
                 <ol>
                     <li>Treasure Planet</li>
                     <li>The Nightmare before Christmas</li>
@@ -15,6 +16,7 @@ function Body() {
                     <li>Fast and Furious: Tokyo Drift</li>
                 </ol>
             </div>
+            <div className="col-4"></div>
         </div>
     )
 }
